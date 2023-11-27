@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20210762_김영채 개인프로젝트</title>
+    <style>
+        div.title {
+            background-color:cornflowerblue;
+            border: 1px solid;
+            width: 500px;
+            height: 150px;
+            text-align: center;
+            padding: 30px;
+            color:black;
+            font-family: HY동녘B;
+        }
+        div.menu {
+            background-color: lightblue;
+            border: 1px solid;
+            width: 500px;
+            height:500px;
+            text-align: center;
+            padding: 30px;
+        }
+        .box1, .box2, .box3, .box4 {
+            width:350px;
+            height:50px;
+            background-color: lightpink;
+            border:1px solid;
+            border-radius: 30px;
+            padding: 20px;
+            color: black;
+            font-family: HY동녘B;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var name= prompt("이름을 입력하시오");
+        document.write( name + "님, 동덕여대 컴퓨터학과 입학을 축하합니다!<br><hr>");
+    </script>
+    <div class="title"><h1><bold>슬기로운 컴과 생활</bold></h1><p>아래 목록을 클릭하시오</p></div>
+    <div class="menu">
+        <h2 class="box1" onclick="location.href='c1.html'">전공책</h2>
+        <h2 class="box2" onclick="location.href='c2.html'">동아리 및 대외활동</h2>
+        <h2 class="box3" onclick="location.href='c3.html'">봉사활동</h2>
+        <h2 class="box4" onclick="location.href='c4.html'">기타사항(대학생 혜택)</h2>
+    </div>
+</body>
+</html>
